@@ -12,4 +12,5 @@ Ideas:
 - go-hexagonal architecture
 - aws + kubernetes cost analysis and saving
 - performance analysis/tuning
+- meaningful-slis (implementing [alerting](https://github.com/VladMinzatu/go-projects/tree/main/burn-rate-based-alerting) and deriving meaningful SLIs from code - branching, error handling, etc.)
 
