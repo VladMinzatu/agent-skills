@@ -8,15 +8,15 @@ description: "Scaffold a Go project using hexagonal (ports-and-adapters) archite
 Create a production-ready Go project structure that combines idiomatic Go package organization with hexagonal (ports-and-adapters) architecture.
 
 **Supporting files (load when needed):**
-- [reference.md](reference.md) - Architecture patterns, principles, and decision tree
-- [examples.md](examples.md) - Real-world project examples and common patterns
+- [reference.md](references/reference.md) - Architecture patterns, principles, and decision tree
+- [examples.md](references/examples.md) - Real-world project examples and common patterns
 
 ## Overview
 
 Hexagonal architecture (ports-and-adapters) isolates business logic from external dependencies. This skill helps you understand and implement this pattern in Go, with two main uses:
 
-1. **Learn the principles** — Read this SKILL.md, [reference.md](reference.md), and [examples.md](examples.md) to understand the architecture
-2. **Scaffold a new project** — Use the interactive setup to generate a working skeleton project tailored to your needs (see [setup-interactive.md](setup-interactive.md))
+1. **Learn the principles** — Read this SKILL.md, [reference.md](references/reference.md), and [examples.md](references/examples.md) to understand the architecture
+2. **Scaffold a new project** — Use the interactive setup to generate a working skeleton project tailored to your needs (see [setup-interactive.md](assets//setup-interactive.md))
 
 A hexagonal architecture project:
 
@@ -415,7 +415,7 @@ func TestCreateUserFlow(t *testing.T) {
 
 ### Option 2: Scaffold a New Project
 
-For a hands-on approach with minimal groundwork, see [setup-interactive.md](setup-interactive.md). The interactive setup will:
+For a hands-on approach with minimal groundwork, see [setup-interactive.md](assets/setup-interactive.md). The interactive setup will:
 - Ask you about your project (domain, storage, adapters)
 - Generate a working skeleton project
 - Create a project-specific CLAUDE.md with guidance tailored to your choices
